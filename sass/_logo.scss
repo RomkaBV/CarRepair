@@ -1,5 +1,6 @@
 .header__page {
   max-width: 1020px;
+
   padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
@@ -7,12 +8,13 @@
 
 // logo
 
-.logo {
-}
+// .logo {
+// }
 .logo__list {
+  display: flex;
   margin: 0px;
   padding: 0px;
-  display: flex;
+
   padding-top: 39px;
   padding-bottom: 28px;
 }
@@ -55,7 +57,6 @@
 ul,
 li,
 p {
-  display: block;
   margin: 0px;
   padding: 0px;
   list-style: none;

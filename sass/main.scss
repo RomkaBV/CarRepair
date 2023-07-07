@@ -1,17 +1,19 @@
 $--neutral-white: #ffffff;
 $--car-repair-secondary: #02133c;
+$--neutral-gray-1: #4b4b4b;
 
 body {
   font-family: "Roboto";
-  background-color: #cdcdcd;
+  background-color: #f5f5f5;
 }
 .wraper {
   background-image: url(../img/Heroshot.jpg);
   max-width: 1694px;
+  height: 813px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 813px;
 }
 @import "./logo";
+@import "./page";

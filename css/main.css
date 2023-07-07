@@ -1,16 +1,16 @@
 body {
   font-family: "Roboto";
-  background-color: #cdcdcd;
+  background-color: #f5f5f5;
 }
 
 .wraper {
   background-image: url(../img/Heroshot.jpg);
   max-width: 1694px;
+  height: 813px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 813px;
 }
 
 .header__page {
@@ -21,11 +21,11 @@ body {
 }
 
 .logo__list {
-  margin: 0px;
-  padding: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0px;
+  padding: 0px;
   padding-top: 39px;
   padding-bottom: 28px;
 }
@@ -72,7 +72,6 @@ body {
 ul,
 li,
 p {
-  display: block;
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -148,4 +147,55 @@ p {
   font-size: 56px;
   font-weight: 900;
   line-height: 1;
+}
+
+.content {
+  max-width: 1020px;
+  max-height: 700px;
+  margin-top: 232px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  background-image: url(../img/Gears.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.conten__page {
+  margin-left: 87px;
+}
+
+.content__title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #4b4b4b;
+  font-size: 12px;
+  padding-top: 100px;
+  padding-left: 33px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+.content__subtitle {
+  width: 583px;
+  padding-top: 33px;
+  margin: 0px;
+  color: #02133c;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.16;
+}
+
+.content__text {
+  width: 846px;
+  padding-top: 36px;
+  padding-bottom: 54px;
+  max-width: 846px;
+  margin-left: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
 }/*# sourceMappingURL=main.css.map */
