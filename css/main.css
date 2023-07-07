@@ -81,10 +81,6 @@ p {
   letter-spacing: 0.15px;
 }
 
-p {
-  margin-left: 10px;
-}
-
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,7 +154,7 @@ p {
   background-color: #ffffff;
   background-image: url(../img/Gears.svg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-x: right;
 }
 
 .conten__page {
@@ -198,4 +194,97 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.15px;
+}
+
+.promis {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+.promis__page {
+  margin-top: 230px;
+  padding-bottom: 30px;
+}
+
+.promis__title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #4b4b4b;
+  font-size: 12px;
+  padding-left: 33px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+.promis__subtitle {
+  width: 583px;
+  padding-top: 33px;
+  margin: 0px;
+  color: #02133c;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.16;
+}
+
+.promis__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+}
+
+.promis__item {
+  max-width: 324px;
+}
+
+.promis__item:first-child {
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.promis__item:last-child {
+  margin-left: 24px;
+}
+
+.promis__item:nth-last-child(2) {
+  margin-left: 24px;
+}
+
+.promis__subject {
+  color: #02133c;
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 1.36;
+  padding-left: 86px;
+}
+
+.promis__text {
+  padding-left: 86px;
+  font-size: 16px;
+  color: #4b4b4b;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+}
+
+.aligned {
+  background-image: url(../icon/promis_service_24x.svg);
+  background-position-y: 30px;
+  background-repeat: no-repeat;
+}
+
+.servis {
+  background-image: url(../icon/promis_car_24x.svg);
+  background-position-y: 30px;
+  background-repeat: no-repeat;
+}
+
+.team {
+  background-image: url(../icon/promis_team_24x.svg);
+  background-position-y: 30px;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */

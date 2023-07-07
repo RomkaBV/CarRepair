@@ -2,6 +2,7 @@ $--neutral-white: #ffffff;
 $--car-repair-secondary: #02133c;
 $--neutral-gray-1: #4b4b4b;
 
+
 body {
   font-family: "Roboto";
   background-color: #f5f5f5;
@@ -16,4 +17,5 @@ body {
   background-size: cover;
 }
 @import "./logo";
-@import "./page";
+@import "./content";
+@import "./promis";
