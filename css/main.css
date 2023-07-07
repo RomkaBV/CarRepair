@@ -21,11 +21,11 @@ body {
 }
 
 .logo__list {
+  margin: 0px;
+  padding: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 0px;
-  padding-left: 0px;
   padding-top: 39px;
   padding-bottom: 28px;
 }
@@ -43,11 +43,11 @@ body {
 }
 
 .logo__item:first-child {
-  margin-right: 200px;
+  margin-right: 220px;
 }
 
 .logo__item:nth-last-child(1) {
-  margin-left: 32px;
+  margin-left: 35px;
 }
 
 .logo__item:nth-last-child(2) {
@@ -55,12 +55,18 @@ body {
 }
 
 .button {
+  color: #ffffff;
   padding: 0px;
   margin: 0px;
   text-align: center;
   background-color: #c40b0b;
   width: 211px;
   height: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
 }
 
 ul,
@@ -84,11 +90,6 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #ffffff;
   color: #02133c;
 }
@@ -97,11 +98,16 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0px;
 }
 
 .nav__item {
   list-style: none;
   margin-left: 37px;
+  padding: 15px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -114,7 +120,12 @@ p {
 }
 
 .nav__item:nth-last-child(2) {
-  margin-left: 39px;
+  margin-left: 335px;
+}
+
+.nav__item:nth-last-child(1) {
+  margin-left: 22px;
+  margin-right: 48px;
 }
 
 .nav__link {
