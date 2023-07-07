@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto";
+  background-color: #cdcdcd;
+}
+
+.wraper {
+  background-image: url(../img/Heroshot.jpg);
+  max-width: 1694px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 813px;
+}
+
+.header__page {
+  max-width: 1020px;
+  padding: 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 39px;
+  padding-bottom: 28px;
+}
+
+.logo__item {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.83;
+  letter-spacing: 0.15px;
+}
+
+.logo__item:first-child {
+  margin-right: 200px;
+}
+
+.logo__item:nth-last-child(1) {
+  margin-left: 32px;
+}
+
+.logo__item:nth-last-child(2) {
+  margin-left: 64px;
+}
+
+.button {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  background-color: #c40b0b;
+  width: 211px;
+  height: 40px;
+}
+
+ul,
+li,
+p {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.83;
+  letter-spacing: 0.15px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  color: #02133c;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item {
+  list-style: none;
+  margin-left: 37px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.57;
+  letter-spacing: 0.15px;
+}
+
+.nav__item:first-child {
+  margin-left: 40px;
+}
+
+.nav__item:nth-last-child(2) {
+  margin-left: 39px;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: 42px;
+}
+
+.title {
+  display: block;
+  max-width: 583px;
+  color: #ffffff;
+  margin-top: 126px;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 1;
+}/*# sourceMappingURL=main.css.map */
