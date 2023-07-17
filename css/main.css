@@ -24,17 +24,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px;
-  padding: 0px;
+  padding: 39px 0px 28px 0px;
   padding-top: 39px;
   padding-bottom: 28px;
 }
 
+.logo__list {
+  margin: 0px;
+}
+
 .logo__item {
   color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   list-style: none;
   font-size: 12px;
   font-weight: 700;
@@ -43,21 +43,27 @@
 }
 
 .logo__item:first-child {
-  margin-right: 220px;
+  margin-right: 236px;
 }
 
-.logo__item:nth-last-child(1) {
-  margin-left: 35px;
+.logo__item:nth-child(2) {
+  margin-right: 10px;
 }
 
-.logo__item:nth-last-child(2) {
-  margin-left: 64px;
+.logo__item:nth-child(3) {
+  margin-right: 42px;
+}
+
+.logo__item:nth-child(4) {
+  margin-right: 10px;
+}
+
+.logo__item:last-child {
+  margin-left: 38px;
 }
 
 .button {
   color: #ffffff;
-  padding: 0px;
-  margin: 0px;
   text-align: center;
   background-color: #c40b0b;
   width: 211px;
@@ -67,6 +73,14 @@
   line-height: 2;
   letter-spacing: 0.15px;
   text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button a:visited {
+  color: #ffffff;
 }
 
 ul,
@@ -145,7 +159,11 @@ p {
   line-height: 1;
 }
 
-.content {
+.logo__icon p {
+  padding-left: 10px;
+}
+
+.who-we-are {
   max-width: 1020px;
   margin-top: -80px;
   margin-left: auto;
@@ -156,11 +174,11 @@ p {
   background-position-x: right;
 }
 
-.conten__page {
+.who-we-are__page {
   margin-left: 87px;
 }
 
-.content__title {
+.who-we-are__title {
   background-image: url(../img/OverlineMark.jpg);
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -176,7 +194,7 @@ p {
   text-transform: uppercase;
 }
 
-.content__subtitle {
+.who-we-are__subtitle {
   width: 583px;
   padding-top: 33px;
   margin: 0px;
@@ -186,7 +204,7 @@ p {
   line-height: 1.16;
 }
 
-.content__text {
+.who-we-are__text {
   width: 846px;
   padding-top: 36px;
   padding-bottom: 54px;
@@ -198,11 +216,11 @@ p {
   letter-spacing: 0.15px;
 }
 
-.conten__image {
+.who-we-are__image {
   margin: 0px 0px -120px 0px;
 }
 
-.conten__image img {
+.who-we-are__image img {
   max-width: 100%;
 }
 

@@ -18,47 +18,59 @@
 }
 .logo__list {
   display: flex;
-  margin: 0px;
-  padding: 0px;
-
+  // align-items: center;
+  padding: 39px 0px 28px 0px;
   padding-top: 39px;
   padding-bottom: 28px;
 }
+.logo__list {
+  margin: 0px;
+}
 .logo__item {
   color: $--neutral-white;
-  display: flex;
-
   list-style: none;
-
   font-size: 12px;
   font-weight: 700;
   line-height: 1.83;
   letter-spacing: 0.15px;
 }
+
 .logo__item:first-child {
-  margin-right: 220px;
+  margin-right: 236px;
 }
-.logo__item:nth-last-child(1) {
-  margin-left: 35px;
+.logo__item:nth-child(2) {
+  margin-right: 10px;
 }
-.logo__item:nth-last-child(2) {
-  margin-left: 64px;
+.logo__item:nth-child(3) {
+  margin-right: 42px;
 }
+.logo__item:nth-child(4) {
+  margin-right: 10px;
+}
+.logo__item:last-child {
+  margin-left: 38px;
+}
+
 .button {
   color: $--neutral-white;
-  padding: 0px;
-  margin: 0px;
+
   text-align: center;
   background-color: #c40b0b;
   width: 211px;
   height: 40px;
 
   font-size: 12px;
-
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.15px;
   text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+.button a:visited {
+  color: $--neutral-white;
 }
 ul,
 li,
@@ -122,4 +134,8 @@ p {
   font-size: 56px;
   font-weight: 900;
   line-height: 1;
+}
+
+.logo__icon p {
+  padding-left: 10px;
 }
